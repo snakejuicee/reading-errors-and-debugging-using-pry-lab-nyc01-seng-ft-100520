@@ -3,11 +3,13 @@
 require 'pry'
 
 def snake_it_up(string)
+  count = 0 
   
   if string[0] == "s" do
-    string = "ssssssssss" + string 
+    while count < 11 do 
+      
   else
-    string
-  end
   string
+  end
+  p string
 end
