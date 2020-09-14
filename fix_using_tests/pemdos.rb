@@ -4,7 +4,7 @@ require 'pry'
 
 def snake_it_up(string)
   
-  count = 0 
+  count = 1 
   if string[0] == "s" 
     
     while count < 11 do 
